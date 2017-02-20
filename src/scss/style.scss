@@ -80,6 +80,17 @@ footer .container {
     }
 }
 
+.btn:nth-of-type(1) {
+    visibility: visible;
+}
+
+.project {
+    display: inline-block;
+    height: 400px;
+    width: 300px;;
+    background-color: #5A556C;   
+}
+
 .container img {
     height: 100px;
     width: auto;
@@ -90,6 +101,7 @@ footer .container {
     width: 100%;
     align-content: space-between;
     justify-content: space-around;
+    align-self: center;
 }
 
 .contact {
