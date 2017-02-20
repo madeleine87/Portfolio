@@ -1,5 +1,6 @@
 @import "variables";
 @import "title";
+@import "projects";
 
 * {
     box-sizing: border-box;
@@ -80,19 +81,33 @@ footer .container {
     }
 }
 
-.btn:nth-of-type(1) {
-    visibility: visible;
-}
 
-.project {
-    display: inline-block;
-    height: 400px;
-    width: 300px;;
-    background-color: #5A556C;   
-}
 
-.container img {
-    height: 100px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons img {
+    height: 80px;
     width: auto;
 }
 
