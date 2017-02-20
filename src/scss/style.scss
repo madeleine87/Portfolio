@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +17,25 @@ body {
     flex-direction: column;
 }
 
+header .container {
+    background-color: $backgroundHeader;
+}
+
+.about .container {
+    background-color: $backgroundAbout;
+}
+
+.skills .container {
+    background-color: $backgroundSkills;
+}
+
+.projects .container {
+    background-color: $backgroundProjects;
+}
+
+footer .container {
+    background-color: $backgroundFooter;
+}
 
 .btn {
     visibility: hidden;
