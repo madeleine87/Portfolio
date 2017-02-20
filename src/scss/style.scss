@@ -80,6 +80,18 @@ footer .container {
     }
 }
 
+.container img {
+    height: 100px;
+    width: auto;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
 .contact {
     text-align: center;
     letter-spacing: 3px;
