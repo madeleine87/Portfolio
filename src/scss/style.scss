@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0 auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btn {
+    visibility: hidden;
+    padding-top: 60px;
+    a {
+        height: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #000;
+    }
+}
+
+.intro {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    h1 {
+        font-size: 40px;
+        font-weight: 100;
+        margin: 5px 0px;
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: 100;
+        text-align: center;
+        visibility: hidden;
+    }
+}
+
+.about_me p {
+    width: 40vw;
+    display: inline-block;
+    &:first-child {
+        margin-right: 20px;
+    }
+    &:nth-child(2) {
+        margin-left: 20px;
+    }
+}
