@@ -21,7 +21,10 @@
 
 .pro_image {
     height: 70%;
-    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pro_about {
@@ -30,6 +33,7 @@
     padding: 0 20px;
     background-color: #fff;
     h3 {
+        font-family: $projectTitleFont;
         margin: 0;
         padding: 0.5em 0;
         &:hover {
@@ -38,12 +42,21 @@
     }   
 }
 
-#p1 {
+#p1 .pro_image {
     background-color: $backgroundMyWork1;
+    &:hover {
+        opacity: 0.2;
+    }
 }
-#p2 {
+#p2 .pro_image {
     background-color: $backgroundMyWork2;
+    &:hover {
+        opacity: 0.2;
+    }
 }
-#p3 {
+#p3 .pro_image {
     background-color: $backgroundMyWork3;
+    &:hover {
+        opacity: 0.2;
+    }
 }
