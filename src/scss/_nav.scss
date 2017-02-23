@@ -35,16 +35,26 @@
 
 .visible {
     display: block;
-    width: 20%;
+    @include mobile {
+        width: 100%;
+    }
+    @include desktop {
+        width: 20%;
+    }
 }
+
 .main {
     width: 100%;
 }
-.move {
-    width: 80%;
+
+@include desktop {
+    .move {
+        width: 80%;
+    }
 }
+
 .show {
-   right: 350px; 
+    right: 23%;
 }
 
 .closeBtn {
@@ -69,10 +79,9 @@
     height: 2px;
     background: #E6E3E3;
     opacity: .5;
-    
 }
 
-.social a{
+.social a {
     display: inline-block;
     margin-left: 40px;
     color: #fff;

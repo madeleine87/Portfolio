@@ -18,6 +18,7 @@ $(function () {
     var menu = $('.menu');
     var mainDiv = $('.main');
     var hamburgerWrap = $('.toggle_menu');
+    
     hamburger.on('click', function () {
         hamburgerWrap.toggleClass('show');
         mainDiv.toggleClass('move');
@@ -26,14 +27,11 @@ $(function () {
 
     var closeBtn = $('.fa-times-circle-o');
     var menu = $('.menu');
+    
     closeBtn.on('click', function () {
         menu.removeClass('visible');
         mainDiv.removeClass('move');
         hamburgerWrap.removeClass('show');
     });
-
-
-
-
 
 });
