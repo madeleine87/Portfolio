@@ -1,0 +1,16 @@
+.toggle_menu {
+    width: 32px;
+    height: 28px;
+    background: transparent no-repeat;
+    background-size: 32px 28px !important;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 5%;
+    margin-top: -16px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
