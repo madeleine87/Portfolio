@@ -14,3 +14,41 @@
     -webkit-transition: .5s;
     transition: .5s;
 }
+
+.menu {
+//    display: none;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: -16px;
+    background: #000;
+    a {
+        padding-top: 30px;
+        display: block;
+        color: #3E3E3E;
+        font-family: $projectTitleFont;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.bar {
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 160px;
+    height: 2px;
+    background: #3E3E3E;
+}
+
+.social a{
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    padding-top: 50px;
+    padding-right: 5px;
+}
