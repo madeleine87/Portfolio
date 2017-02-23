@@ -17,10 +17,10 @@ $(function () {
     var hamburger = $('.fa-bars');
     var menu = $('.menu');
     var mainDiv = $('.main');
-//    var hamburgerWrap = $('.toggle_menu');
+    var hamburgerWrap = $('.toggle_menu');
     hamburger.on('click', function(){
-//        hamburgerWrap.addClass('show');
-        mainDiv.addClass('move');
+        hamburgerWrap.toggleClass('show');
+        mainDiv.toggleClass('move');
         menu.toggleClass('visible');
     });
     
@@ -29,9 +29,8 @@ $(function () {
     closeBtn.on('click', function(){
         menu.removeClass('visible');
         mainDiv.removeClass('move');
-
+        hamburgerWrap.removeClass('show');
     });
-
 
 
 
