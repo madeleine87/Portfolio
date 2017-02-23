@@ -13,7 +13,12 @@ $(function () {
         }
     });
 
-
+    var hamburger = $('.fa-bars');
+    var menu = $('.menu');
+    
+    hamburger.on('click', function(){
+        menu.addClass('visible');
+    });
 
 
 
