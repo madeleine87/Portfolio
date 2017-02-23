@@ -8,7 +8,7 @@ $animationTime: 4s;
     animation: typing $animationTime steps(40, end), blink-caret .75s step-end infinite;
 }
 
-@keyframes typing {
+@include keyframes(typing) {
     from {
         width: 0
     }
@@ -17,7 +17,7 @@ $animationTime: 4s;
     }
 }
 
-@keyframes blink-caret {
+@include keyframes(blink-caret) {
     from,
     to {
         border-color: transparent
@@ -33,7 +33,7 @@ $animationTime: 4s;
     animation-iteration-count: 1;
 }
 
-@keyframes showHidden {
+@include keyframes(showHidden) {
     0% {
         visibility: hidden;
     }
