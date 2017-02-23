@@ -16,7 +16,7 @@
 }
 
 .menu {
-    visibility: hidden;
+    display: none;
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -27,7 +27,7 @@
     a {
         padding-top: 30px;
         display: block;
-        color: #3E3E3E;
+        color: #E6E3E3;
         font-family: $projectTitleFont;
         text-decoration: none;
         &:hover {
@@ -37,7 +37,36 @@
 }
 
 .visible {
-    visibility: visible;
+    display: block;
+    width: 20%;
+}
+.main {
+    width: 100%;
+}
+.move {
+    width: 80%;
+}
+.show {
+   right: 350px; 
+}
+
+.closeBtn {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: transparent url(images/close.png) no-repeat;
+    background-size: 20px 20px !important;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    margin-top: -16px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    opacity: .5;
 }
 
 .bar {

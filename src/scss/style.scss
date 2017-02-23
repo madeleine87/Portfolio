@@ -123,15 +123,13 @@ footer .container {
     display: inline-block;
     padding: 30px;
 }
-.about_me p {
-    width: 40vw;
-    display: inline-block;
-    &:first-child {
-        margin-right: 20px;
-    }
-    
-    &:nth-child(2) {
-        margin-left: 20px;
+.about_me {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    p:first-of-type {
+        text-align: center;
+        padding-right: 30px;
     }
 }
 .contact {

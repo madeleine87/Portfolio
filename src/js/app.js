@@ -13,11 +13,23 @@ $(function () {
         }
     });
 
+    
     var hamburger = $('.fa-bars');
     var menu = $('.menu');
-    
+    var mainDiv = $('.main');
+//    var hamburgerWrap = $('.toggle_menu');
     hamburger.on('click', function(){
-        menu.addClass('visible');
+//        hamburgerWrap.addClass('show');
+        mainDiv.addClass('move');
+        menu.toggleClass('visible');
+    });
+    
+    var closeBtn = $('.fa-times-circle-o');
+    var menu = $('.menu');
+    closeBtn.on('click', function(){
+        menu.removeClass('visible');
+        mainDiv.removeClass('move');
+
     });
 
 
