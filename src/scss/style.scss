@@ -1,9 +1,12 @@
+@import "prefixes";
 @import "variables";
 @import "title";
 @import "projects";
 @import "nav";
+
+
 * {
-    box-sizing: border-box;
+    @include box-sizing(border-box);
 }
 
 body {
@@ -44,7 +47,7 @@ footer .container {
     a {
         height: auto;
         border: 1px solid black;
-        border-radius: 5px;
+        @include border-radius(5px);
         padding: 20px 30px;
         text-decoration: none;
         text-transform: uppercase;
@@ -148,5 +151,14 @@ footer .container {
         &:hover {
             color: $backgroundMyWork1;
         }
-    }
+    }  
 }
+
+.social-contact a{
+        display: inline-block;
+        color: #000;
+        margin: 30px 10px 0 10px;
+    
+    }
+
+

@@ -8,9 +8,7 @@
 
 .project {
     width: 300px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+   @include box-shadow(10px 10px 5px 0px rgba(0, 0, 0, 0.25));
 }
 
 .pro_image img {
@@ -20,10 +18,12 @@
 
 .pro_image {
     height: 70%;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    a {
+        color: #fff;
+    }
 }
 
 .pro_about {

@@ -13,20 +13,20 @@ $(function () {
         }
     });
 
-    
+
     var hamburger = $('.fa-bars');
     var menu = $('.menu');
     var mainDiv = $('.main');
     var hamburgerWrap = $('.toggle_menu');
-    hamburger.on('click', function(){
+    hamburger.on('click', function () {
         hamburgerWrap.toggleClass('show');
         mainDiv.toggleClass('move');
         menu.toggleClass('visible');
     });
-    
+
     var closeBtn = $('.fa-times-circle-o');
     var menu = $('.menu');
-    closeBtn.on('click', function(){
+    closeBtn.on('click', function () {
         menu.removeClass('visible');
         mainDiv.removeClass('move');
         hamburgerWrap.removeClass('show');
