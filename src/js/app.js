@@ -23,8 +23,13 @@ $(function () {
         hamburgerWrap.toggleClass('show');
         mainDiv.toggleClass('move');
         menu.toggleClass('visible');
+        
     });
-
+    
+        
+    
+    
+    
     var closeBtn = $('.fa-times-circle-o');
     var menu = $('.menu');
     

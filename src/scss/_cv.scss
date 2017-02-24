@@ -1,0 +1,81 @@
+.cv-flex {
+    @include mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    @include medium {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+    }
+}
+
+.education,
+.skills {
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 50px;
+        p,
+        ul {
+            display: none;
+        }
+        h4 {
+            color: #3E3E3E;
+            white-space: nowrap;
+            background: #E6E3E3;
+        }
+    }
+    @include medium {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        height: 500px;
+        h4 {
+            color: #3E3E3E;
+            white-space: nowrap;
+            background: #E6E3E3;
+        }
+    }
+    @include desktop {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        h4 {
+            color: #3E3E3E;
+            white-space: nowrap;
+            background: #E6E3E3;
+        }
+    }
+}
+.cv-title {
+    color: #E6E3E3;
+    font-size: 60px;
+    padding-top: 10px;
+    
+}
+.cv-list {
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 60%;
+        color: #3E3E3E;
+        h4 {
+            font-size: 20px;
+            margin: 5px 0;
+           
+        }
+        p,
+        ul {
+            font-size: 16px;
+        }
+    }
+}
