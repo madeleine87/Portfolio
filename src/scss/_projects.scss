@@ -8,7 +8,10 @@
 
 .project {
     width: 300px;
-    @include box-shadow(10px 10px 5px 0px rgba(0, 0, 0, 0.25));
+    @include desktop { 
+        @include box-shadow(10px 10px 5px 0px rgba(0, 0, 0, 0.25));
+    }
+    
 }
 
 .pro_image img {
