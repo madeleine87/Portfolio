@@ -26,10 +26,6 @@ $(function () {
         
     });
     
-        
-    
-    
-    
     var closeBtn = $('.fa-times-circle-o');
     var menu = $('.menu');
     

@@ -24,9 +24,9 @@
             display: none;
         }
         h4 {
-            color: #3E3E3E;
+            color: $cvMainColor;
             white-space: nowrap;
-            background: #E6E3E3;
+            background: $cvElements;
         }
     }
     @include medium {
@@ -36,9 +36,9 @@
         align-items: baseline;
         height: 500px;
         h4 {
-            color: #3E3E3E;
+            color: $cvMainColor;
             white-space: nowrap;
-            background: #E6E3E3;
+            background: $cvElements;
         }
     }
     @include desktop {
@@ -48,14 +48,14 @@
         justify-content: space-between;
         align-items: baseline;
         h4 {
-            color: #3E3E3E;
+            color: $cvMainColor;
             white-space: nowrap;
-            background: #E6E3E3;
+            background: $cvElements;
         }
     }
 }
 .cv-title {
-    color: #E6E3E3;
+    color: $cvElements;
     font-size: 60px;
     padding-top: 10px;
     
@@ -67,7 +67,7 @@
         justify-content: space-between;
         align-items: baseline;
         width: 60%;
-        color: #3E3E3E;
+        color: $cvMainColor;
         h4 {
             font-size: 20px;
             margin: 5px 0;
