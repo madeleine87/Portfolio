@@ -39,20 +39,20 @@ $(function () {
 
     function checkSize() {
         if ($(".education_and_skills").find("p, ul").css("display") == "none") {
-            $("#cv-list-1").find("#1").on('click', function () {
-                $("#cv-list-1").find("#2, #3, #4").toggleClass("h4_visible");
+            $("#cv-list-1").find("#h1").on('click', function () {
+                $("#cv-list-1").find("#h2, #h3, #h4").toggleClass("h4_visible");
                 $("#cv-list-1").find("p:eq(0)").css("display", "block");
             });
-            $("#cv-list-1").find("#2").on('click', function () {
-                $("#cv-list-1").find("#1, #3, #4").toggleClass("h4_visible");
+            $("#cv-list-1").find("#h2").on('click', function () {
+                $("#cv-list-1").find("#h1, #h3, #h4").toggleClass("h4_visible");
                 $("#cv-list-1").find("p:eq(1)").css("display", "block");
             });
-            $("#cv-list-1").find("#3").on('click', function () {
-                $("#cv-list-1").find("#1, #2, #4").toggleClass("h4_visible");
+            $("#cv-list-1").find("#h3").on('click', function () {
+                $("#cv-list-1").find("#h1, #h2, #h4").toggleClass("h4_visible");
                 $("#cv-list-1").find("p:eq(2)").css("display", "block");
             });
-            $("#cv-list-1").find("#4").on('click', function () {
-                $("#cv-list-1").find("#1, #2, #3").toggleClass("h4_visible");
+            $("#cv-list-1").find("#h4").on('click', function () {
+                $("#cv-list-1").find("#h1, #h2, #h3").toggleClass("h4_visible");
                 $("#cv-list-1").find("ul").css("display", "block");
             });
         }
