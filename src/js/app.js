@@ -51,6 +51,12 @@ $(function () {
             $("#cv-list-1").find("#h4").on('click', function () {
                 $("#cv-list-1").find("ul").toggleClass("list_visible");
             });
+            $("#cv-list-2").find("#h5").on('click', function () {
+                $("#cv-list-2").find("p:eq(0)").toggleClass("list_visible");
+            });
+            $("#cv-list-2").find("#h6").on('click', function () {
+                $("#cv-list-2").find("p:eq(1)").toggleClass("list_visible");
+            });
         }
     }
 
