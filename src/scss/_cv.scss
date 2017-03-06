@@ -8,7 +8,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding: 50px;
+        align-items: baseline;
+        padding: 30px;
     }
 }
 
@@ -30,10 +31,11 @@
     }
     @include medium {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: baseline;
         height: 500px;
+        padding-left: 50px;
         h4 {
             color: $cvMainColor;
             white-space: nowrap;
