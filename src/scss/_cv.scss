@@ -55,12 +55,13 @@
         }
     }
 }
+
 .cv-title {
     color: $cvElements;
     font-size: 60px;
     padding-top: 10px;
-    
 }
+
 .cv-list {
     @include desktop {
         display: flex;

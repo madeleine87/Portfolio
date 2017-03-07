@@ -38,7 +38,6 @@ $(function () {
 
 /* jquery inaczej mierzy wielkość okna niż media queries, dlatego wielkość sprawdzam pośrednio przez sprawdzenie czy dany element jest niewidoczny (w wersji mobile tak właśnie jest) */
     function checkSize() {
-        
         if ($(".education_and_skills").find("p, ul").css("display") == "none") {
             $("#cv-list-1").find("#h1").on('click', function () {
                 $("#cv-list-1").find("p:eq(0)").toggleClass("list_visible");
@@ -62,6 +61,5 @@ $(function () {
     }
 
     checkSize();
-    //    $(window).resize(checkSize);
 
 });
