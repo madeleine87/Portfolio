@@ -4,14 +4,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     &.p1 {
-        background-image: url("../img/rower.JPG");
+        background: url("../img/rower.JPG");
     }
     &.p2 {
         background-image: url("../img/wroclaw.JPG");
     }
     &.p3 {
-        background-image: url("../img/niebo.JPG");
-        
+        background-image: url("../img/niebo.JPG"); 
     }
 }
+
